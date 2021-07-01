@@ -1,0 +1,4 @@
+<section class="phx-hero">
+  <h1><%= gettext "Welcome to %{name}!", name: "Cats and dogs" %></h1>
+  <p><%= gettext "A productive pet  framework that" %> <br /><%= gettext "does not compromise cats or dogs." %> </p>
+</section>

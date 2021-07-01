@@ -1,0 +1,327 @@
+## "msgid"s in this file come from POT (.pot) files.
+##
+## Do not add, change, or remove "msgid"s manually here as
+## they're tied to the ones in the corresponding POT file
+## (with the same domain).
+##
+## Use "mix gettext.extract --merge" or "mix gettext.merge"
+## to merge POT files into PO files.
+msgid ""
+msgstr ""
+"Language: ja\n"
+"Plural-Forms: nplurals=1\n"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/templates/session/signup.html.eex:41
+#: lib/ip_project_akselele_web/templates/user/edit.html.eex:5 lib/ip_project_akselele_web/templates/user/new.html.eex:5
+#: lib/ip_project_akselele_web/templates/user/show.html.eex:23
+msgid "Back"
+msgstr "バック"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/templates/profile/password.html.eex:32
+#: lib/ip_project_akselele_web/templates/profile/username.html.eex:20
+msgid "Cancel"
+msgstr "キャンセル"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/templates/profile/password.html.eex:2
+#: lib/ip_project_akselele_web/templates/profile/profile.html.eex:13
+msgid "Change password"
+msgstr "パスワードを変更する"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/templates/profile/profile.html.eex:8
+#: lib/ip_project_akselele_web/templates/profile/username.html.eex:2
+msgid "Change username"
+msgstr "ユーザー名を変更"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/templates/profile/username.html.eex:9
+msgid "Current username"
+msgstr "現在のユーザー名"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/templates/layout/app.html.eex:18
+#: lib/ip_project_akselele_web/templates/page/dashboard.html.eex:1
+msgid "Dashboard"
+msgstr "前板"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/templates/page/dashboard.html.eex:41
+msgid "Date of Birth"
+msgstr "誕生日"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/templates/api/allapis.html.eex:7
+msgid "Key"
+msgstr "鍵"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/templates/api/allapis.html.eex:6
+#: lib/ip_project_akselele_web/templates/page/dashboard.html.eex:40
+msgid "Name"
+msgstr "名"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/templates/profile/password.html.eex:6
+#: lib/ip_project_akselele_web/templates/profile/profile.html.eex:22 lib/ip_project_akselele_web/templates/profile/username.html.eex:6
+#: lib/ip_project_akselele_web/templates/session/signup.html.eex:7 lib/ip_project_akselele_web/templates/user/form.html.eex:4
+msgid "Oops, something went wrong! Please check the errors below."
+msgstr "おっと！何かが間違っていた！以下のエラーを確認してください。"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/templates/page/dashboard.html.eex:39
+msgid "Pet"
+msgstr "ペット"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/templates/layout/app.html.eex:19
+#: lib/ip_project_akselele_web/templates/profile/password.html.eex:1 lib/ip_project_akselele_web/templates/profile/profile.html.eex:3
+#: lib/ip_project_akselele_web/templates/profile/username.html.eex:1
+msgid "Profile"
+msgstr "プロフィール"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/templates/profile/profile.html.eex:11
+#: lib/ip_project_akselele_web/templates/user/index.html.eex:8
+msgid "Role"
+msgstr "役割"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/templates/session/login.html.eex:20
+#: lib/ip_project_akselele_web/templates/session/signup.html.eex:1
+msgid "Sign up"
+msgstr "サインアップ"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/templates/profile/profile.html.eex:6
+#: lib/ip_project_akselele_web/templates/user/index.html.eex:6
+msgid "Username"
+msgstr "ユーザー名"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/templates/page/index.html.eex:2
+msgid "Welcome to %{name}!"
+msgstr "%{name}へようこそ"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/templates/page/index.html.eex:3
+msgid "A productive pet  framework that"
+msgstr "生産的なペットフレームワーク"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/templates/layout/app.html.eex:22
+msgid "Admin page"
+msgstr "管理ページ"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/templates/layout/app.html.eex:17
+msgid "Home"
+msgstr "ホーム"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/templates/layout/app.html.eex:25
+msgid "Login"
+msgstr "ログインする"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/templates/layout/app.html.eex:20
+msgid "Logout"
+msgstr "ログアウト"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/templates/profile/password.html.eex:20
+#: lib/ip_project_akselele_web/templates/session/signup.html.eex:24
+msgid "Repeat your password"
+msgstr "パスワードを再入力してください"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/templates/profile/profile.html.eex:33
+msgid "View keys"
+msgstr "キーを表示"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/templates/page/index.html.eex:3
+msgid "does not compromise cats or dogs."
+msgstr "猫や犬を傷つけません。"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/templates/session/login.html.eex:2
+msgid "Login Page"
+msgstr "ログインする"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/controllers/profile_controller.ex:33
+msgid "Username changed successfully!"
+msgstr "ユーザー名が変更されました！"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/controllers/api_controller.ex:36
+msgid "API key deleted successfully."
+msgstr "APIキーが正常に削除されました。"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/controllers/profile_controller.ex:65
+msgid "Changed password successfully!"
+msgstr "パスワードを変更する"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/controllers/session_controller.ex:53
+msgid "Signed up successfully! Now please login!"
+msgstr "登録しました！ログインしてください！"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/controllers/pet_controller.ex:38
+#: lib/ip_project_akselele_web/controllers/pet_controller.ex:70
+msgid "Something went wrong, sorry. You need to add pets with the following parameters: 'name', 'date of birth(YYYY-MM-DD)'and 'cat' or 'dog'"
+msgstr "エラーが発生しました。申し訳ありません。次のパラメータを使用してペットを追加する必要があります：「名前」、「生年月日（YYYY-MM-DD）」、「猫」または「犬」"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/controllers/api_controller.ex:20
+msgid "There has been an error processing your key add. Please try again."
+msgstr "キーの追加の処理中にエラーが発生しました。もう一度お試しください。"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/controllers/profile_controller.ex:41
+#: lib/ip_project_akselele_web/controllers/session_controller.ex:59
+msgid "This username already exists."
+msgstr "このユーザー名はすでに存在しています。"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/controllers/user_controller.ex:22
+msgid "User created successfully."
+msgstr "ユーザーが作成されました。"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/controllers/user_controller.ex:61
+msgid "User deleted successfully."
+msgstr "ユーザーが正常に削除されました。"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/controllers/user_controller.ex:48
+msgid "User updated successfully."
+msgstr "ユーザーが更新されました。"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/controllers/session_controller.ex:39
+msgid "Username or password is incorrect."
+msgstr "ユーザー名かパスワードが間違っています。"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/controllers/session_controller.ex:32
+msgid "Welcome back!"
+msgstr "お帰りなさい！"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/controllers/pet_controller.ex:20
+#: lib/ip_project_akselele_web/controllers/pet_controller.ex:43 lib/ip_project_akselele_web/controllers/pet_controller.ex:55
+#: lib/ip_project_akselele_web/controllers/pet_controller.ex:75 lib/ip_project_akselele_web/controllers/pet_controller.ex:90
+msgid "You have the wrong key/name combination or a wrong key."
+msgstr "キー/名前の組み合わせが間違っているか、キーが間違っています。"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/controllers/profile_controller.ex:71
+msgid "Your current password isn't correct."
+msgstr "現在のパスワードは正しくありません。"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/guardian/errorhandler.ex:10
+msgid "You are not logged in. Please log in to access the features."
+msgstr "ログインしていません。機能にアクセスするにはログインしてください。"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/plugs/AuthorizationPlug.ex:18
+msgid "You do not have access to these features."
+msgstr "これらの機能にアクセスできません。"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/templates/api/allapis.html.eex:15
+#: lib/ip_project_akselele_web/templates/user/index.html.eex:23
+msgid "Are you sure?"
+msgstr "本気ですか？"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/templates/api/allapis.html.eex:15
+#: lib/ip_project_akselele_web/templates/user/index.html.eex:23
+msgid "Delete"
+msgstr "削除する"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/templates/user/index.html.eex:22
+#: lib/ip_project_akselele_web/templates/user/show.html.eex:22
+msgid "Edit"
+msgstr "編集する"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/templates/user/index.html.eex:7
+msgid "Hashed password"
+msgstr "パスワードを変更する"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/templates/user/show.html.eex:11
+msgid "Hashed password:"
+msgstr "パスワードを変更する:"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/templates/session/login.html.eex:19
+msgid "Log in"
+msgstr "ログインする"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/templates/profile/password.html.eex:14
+msgid "New password"
+msgstr "新しいパスワード"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/templates/profile/password.html.eex:10
+msgid "Old password"
+msgstr "以前のパスワード"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/templates/user/show.html.eex:16
+msgid "Role:"
+msgstr "役割"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/templates/profile/password.html.eex:30
+msgid "Save"
+msgstr "セーブ"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/templates/api/allapis.html.eex:16
+#: lib/ip_project_akselele_web/templates/user/index.html.eex:21
+msgid "Show"
+msgstr "公演"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/templates/session/signup.html.eex:36
+msgid "Sign Up"
+msgstr "サインアップ"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/templates/user/show.html.eex:6
+msgid "Username:"
+msgstr "ユーザー名"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/templates/session/login.html.eex:13
+#: lib/ip_project_akselele_web/templates/session/signup.html.eex:18
+msgid "password"
+msgstr "パスワード"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/templates/session/login.html.eex:7
+#: lib/ip_project_akselele_web/templates/session/signup.html.eex:12
+msgid "username"
+msgstr "ユーザー名"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/templates/profile/profile.html.eex:33
+msgid "Add key"
+msgstr "キーを追加"
+
+#, elixir-format, fuzzy
+#: lib/ip_project_akselele_web/templates/profile/profile.html.eex:26
+msgid "name"
+msgstr "名"

@@ -1,0 +1,43 @@
+<h2><%= gettext "Sign up" %></h2>
+
+<%= form_for @changeset, @action, fn f -> %>
+
+<%= if @changeset.action do %>
+    <div class="alert alert-danger">
+      <p><%= gettext "Oops, something went wrong! Please check the errors below." %></p>
+    </div>
+<% end %>
+
+<div class="form-group">
+  <%= label f, gettext("username"), class: "control-label" %>
+    <%= text_input f, :username, class: "form-control" %>
+  <%= error_tag f, :username %>
+</div>
+
+<div class="form-group">
+  <%= label f, gettext("password"), class: "control-label" %>
+  <%= password_input f, :password, class: "form-control" %>
+  <%= error_tag f, :password %>
+</div>
+
+<div class="form-group">
+  <label for="password2"><%= gettext "Repeat your password" %></label>
+  <input type="password" id="password2">
+</div>
+
+<div class="form-group" style="display:none">
+  <%= label f, :role, class: "control-label" %>
+  <%= select f, :role, @acceptable_roles, class: "control-label" %>
+  <%= error_tag f, :role %>
+</div>
+<div id="match"></div>
+
+<div>
+  <%= submit gettext("Sign Up"), class: "btn btn-primary", id: "buttonId" %>
+</div>
+
+<% end %>
+<p>
+  <a href="/" class="link-button"><%= gettext "Back" %></a>
+</p>
+<script type="text/javascript" src="<%= Routes.static_path(@conn, "/js/pass.js") %>"></script>

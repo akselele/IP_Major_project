@@ -1,0 +1,40 @@
+<article class="row">
+    <section id="username" class="column">
+        <h2><%= gettext "Profile" %></h2>
+        <table>
+            <tr>
+                <th><%= gettext "Username" %></th>
+                <td><%= @user.username %></td>
+                <td><a href="/profile/edit/username" class="link-button"><%= gettext "Change username" %></a></td>
+            </tr>
+            <tr>
+                <th><%= gettext "Role" %></th>
+                <td><%= @user.role %></td>
+                
+            </tr>
+            <td><a href="/profile/edit/password" class="link-button"><%= gettext "Change password" %></a></td>
+        </table>
+    </section>
+    <section id="api" class="column">
+        <h2>APIs</h2>
+        <%= form_for @changeset, @action, fn f -> %>
+  <%= if @changeset.action do %>
+  <div class="alert alert-danger">
+      <p><%= gettext "Oops, something went wrong! Please check the errors below." %></p>
+    </div>
+  <% end %>
+    <p>
+          <%= label f, gettext("name") %>
+           <%= text_input f, :name %>
+          <%= error_tag f, :name %>
+
+    </p>
+    <p>
+        <div>
+    <%= submit gettext("Add key") %> <button type="button" onclick="location.href='/profile/api'"> <%= gettext "View keys" %></button>
+  </div>
+    </p>
+</form>
+<% end %>
+    </section>
+</article>

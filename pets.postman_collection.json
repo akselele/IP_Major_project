@@ -1,0 +1,221 @@
+{
+	"info": {
+		"_postman_id": "cacd6508-e847-4324-a40c-75c894363958",
+		"name": "local dev user & pets",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "get your pet",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "name",
+						"value": "firstKey"
+					},
+					{
+						"key": "key",
+						"value": "MyFancyHeader:!ZTHFdFzKCI2DCTPe3y4I?"
+					}
+				],
+				"url": {
+					"raw": "localhost:4000/api/users/1/pets",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"users",
+						"1",
+						"pets",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get ALL your pets",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "name",
+						"value": "firstKey"
+					},
+					{
+						"key": "key",
+						"value": "MyFancyHeader:!ZTHFdFzKCI2DCTPe3y4I?"
+					}
+				],
+				"url": {
+					"raw": "localhost:4000/api/users/1/pets",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"users",
+						"1",
+						"pets"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "create pet",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "name",
+						"value": "firstKey"
+					},
+					{
+						"key": "key",
+						"value": "MyFancyHeader:!ZTHFdFzKCI2DCTPe3y4I?"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "pet[name]",
+							"value": "Lea",
+							"type": "text"
+						},
+						{
+							"key": "pet[dob]",
+							"value": "2017-06-10",
+							"type": "text"
+						},
+						{
+							"key": "pet[cat_or_dog]",
+							"value": "cat",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:4000/api/users/1/pets",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"users",
+						"1",
+						"pets"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update pet",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "name",
+						"value": "firstKey"
+					},
+					{
+						"key": "key",
+						"value": "MyFancyHeader:!ZTHFdFzKCI2DCTPe3y4I?"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "pet[cat_or_dog]",
+							"value": "dog",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:4000/api/users/1/pets/1",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"users",
+						"1",
+						"pets",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete pet",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "name",
+						"value": "firstKey"
+					},
+					{
+						"key": "key",
+						"value": "MyFancyHeader:!ZTHFdFzKCI2DCTPe3y4I?"
+					}
+				],
+				"url": {
+					"raw": "localhost:4000/api/users/1/pets/1",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"users",
+						"1",
+						"pets",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "afb3bed0-622f-4951-9571-535302038923",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "ca72b100-199b-4628-bb02-1c57b4c87a21",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"protocolProfileBehavior": {}
+}

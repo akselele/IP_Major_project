@@ -1,0 +1,56 @@
+<h1><%= gettext "Dashboard" %></h1>
+<div id="clock">
+        <!-- Time units wrapper -->
+        <span class="wrap-time">
+            <!-- Time unit - Day -->
+            <span class="time-unit">
+                <span class="large day">Mon</span>
+                <span class="small">DAY</span>
+            </span>
+            <!-- Time unit - Hours -->
+            <span class="time-unit">
+                <span class="large hours">00</span>
+                <span class="small">HOURS</span>
+            </span>
+            <span class="separator">:</span>
+            <!-- Time unit - Minutes -->
+            <span class="time-unit">
+                <span class="large minutes">00</span>
+                <span class="small">MINUTES</span>
+            </span>
+            <span class="separator">:</span>
+            <!-- Time unit - Seconds -->
+            <span class="time-unit">
+                <span class="large seconds">00</span>
+                <span class="small">SECONDS</span>
+            </span>
+            <!-- Time unit - Period -->
+            <span class="time-unit">
+                <span class="large period">AM</span>
+                <span class="small">PERIOD</span>
+            </span>
+        </span>
+    </div>
+<section class="row">
+
+    <table id="table-animals">
+        <thead>
+            <tr>
+                <th><%= gettext "Pet" %></th>
+                <th><%= gettext "Name" %></th>
+                <th><%= gettext "Date of Birth" %></th>
+            </tr>
+        </thead>
+        <tbody>
+        <%= for pet <- @pets do%>
+            <tr>
+                <td><%= pet.cat_or_dog %></td>
+                <td><%= pet.name %></td>
+                <td><%= pet.dob %></td>
+            </tr>
+        <% end %>
+        </tbody>
+    </table>
+</section>
+
+<script type="text/javascript" src="<%= Routes.static_path(@conn, "/js/clock.js") %>"></script>

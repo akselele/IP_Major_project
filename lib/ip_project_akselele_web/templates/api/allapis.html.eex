@@ -1,0 +1,22 @@
+<section class="row">
+
+    <table id="table-animals">
+        <thead>
+            <tr>
+                <th><%= gettext "Name" %></th>
+                <th><%= gettext "Key" %></th>
+            </tr>
+        </thead>
+        <tbody>
+        <%= for api <- @apis do%>
+            <tr>
+                <td><%= api.name %></td>
+                <td><%= api.key %></td>
+                <td><%= link gettext("Delete"), to: Routes.api_path(@conn, :delete, api), method: :delete, data: [confirm: gettext("Are you sure?")] %></td>
+                <td><%= link gettext("Show"), to: Routes.api_path(@conn, :show, api) %></td>
+            </tr>
+            
+        <% end %>
+        </tbody>
+    </table>
+</section>

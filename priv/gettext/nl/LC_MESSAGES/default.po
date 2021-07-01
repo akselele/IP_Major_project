@@ -1,0 +1,327 @@
+## "msgid"s in this file come from POT (.pot) files.
+##
+## Do not add, change, or remove "msgid"s manually here as
+## they're tied to the ones in the corresponding POT file
+## (with the same domain).
+##
+## Use "mix gettext.extract --merge" or "mix gettext.merge"
+## to merge POT files into PO files.
+msgid ""
+msgstr ""
+"Language: nl\n"
+"Plural-Forms: nplurals=2\n"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/templates/session/signup.html.eex:41
+#: lib/ip_project_akselele_web/templates/user/edit.html.eex:5 lib/ip_project_akselele_web/templates/user/new.html.eex:5
+#: lib/ip_project_akselele_web/templates/user/show.html.eex:23
+msgid "Back"
+msgstr "Terug"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/templates/profile/password.html.eex:32
+#: lib/ip_project_akselele_web/templates/profile/username.html.eex:20
+msgid "Cancel"
+msgstr "Annuleren"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/templates/profile/password.html.eex:2
+#: lib/ip_project_akselele_web/templates/profile/profile.html.eex:13
+msgid "Change password"
+msgstr "Verander wachtwoord"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/templates/profile/profile.html.eex:8
+#: lib/ip_project_akselele_web/templates/profile/username.html.eex:2
+msgid "Change username"
+msgstr "Verander username"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/templates/profile/username.html.eex:9
+msgid "Current username"
+msgstr "Huidige username"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/templates/layout/app.html.eex:18
+#: lib/ip_project_akselele_web/templates/page/dashboard.html.eex:1
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/templates/page/dashboard.html.eex:41
+msgid "Date of Birth"
+msgstr "Geboortedatum"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/templates/api/allapis.html.eex:7
+msgid "Key"
+msgstr "Sleutel"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/templates/api/allapis.html.eex:6
+#: lib/ip_project_akselele_web/templates/page/dashboard.html.eex:40
+msgid "Name"
+msgstr "Naam"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/templates/profile/password.html.eex:6
+#: lib/ip_project_akselele_web/templates/profile/profile.html.eex:22 lib/ip_project_akselele_web/templates/profile/username.html.eex:6
+#: lib/ip_project_akselele_web/templates/session/signup.html.eex:7 lib/ip_project_akselele_web/templates/user/form.html.eex:4
+msgid "Oops, something went wrong! Please check the errors below."
+msgstr "Oops, er ging iets mis! Bekijk de errors hieronder."
+
+#, elixir-format
+#: lib/ip_project_akselele_web/templates/page/dashboard.html.eex:39
+msgid "Pet"
+msgstr "Huisdier"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/templates/layout/app.html.eex:19
+#: lib/ip_project_akselele_web/templates/profile/password.html.eex:1 lib/ip_project_akselele_web/templates/profile/profile.html.eex:3
+#: lib/ip_project_akselele_web/templates/profile/username.html.eex:1
+msgid "Profile"
+msgstr "Profiel"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/templates/profile/profile.html.eex:11
+#: lib/ip_project_akselele_web/templates/user/index.html.eex:8
+msgid "Role"
+msgstr "Rol"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/templates/session/login.html.eex:20
+#: lib/ip_project_akselele_web/templates/session/signup.html.eex:1
+msgid "Sign up"
+msgstr "Aanmelden"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/templates/profile/profile.html.eex:6
+#: lib/ip_project_akselele_web/templates/user/index.html.eex:6
+msgid "Username"
+msgstr "Username"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/templates/page/index.html.eex:2
+msgid "Welcome to %{name}!"
+msgstr "Welkom bij %{name}!"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/templates/page/index.html.eex:3
+msgid "A productive pet  framework that"
+msgstr "Een productief huisdier framework dat"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/templates/layout/app.html.eex:22
+msgid "Admin page"
+msgstr "Admin pagina"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/templates/layout/app.html.eex:17
+msgid "Home"
+msgstr "Home"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/templates/layout/app.html.eex:25
+msgid "Login"
+msgstr "Inloggen"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/templates/layout/app.html.eex:20
+msgid "Logout"
+msgstr "Uitloggen"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/templates/profile/password.html.eex:20
+#: lib/ip_project_akselele_web/templates/session/signup.html.eex:24
+msgid "Repeat your password"
+msgstr "Herhaal je wachtwoord"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/templates/profile/profile.html.eex:33
+msgid "View keys"
+msgstr "Sleutels bekijken"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/templates/page/index.html.eex:3
+msgid "does not compromise cats or dogs."
+msgstr "dat niet honden of katten niet favoriseert"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/templates/session/login.html.eex:2
+msgid "Login Page"
+msgstr "Login pagina"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/controllers/profile_controller.ex:33
+msgid "Username changed successfully!"
+msgstr "Username succesvol veranderd!"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/controllers/api_controller.ex:36
+msgid "API key deleted successfully."
+msgstr "API sleutel succesvol verwijderd."
+
+#, elixir-format
+#: lib/ip_project_akselele_web/controllers/profile_controller.ex:65
+msgid "Changed password successfully!"
+msgstr "Wachtwoord succesvol veranderd!"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/controllers/session_controller.ex:53
+msgid "Signed up successfully! Now please login!"
+msgstr "Succesvol aangemeld! U kunt nu inloggen."
+
+#, elixir-format
+#: lib/ip_project_akselele_web/controllers/pet_controller.ex:38
+#: lib/ip_project_akselele_web/controllers/pet_controller.ex:70
+msgid "Something went wrong, sorry. You need to add pets with the following parameters: 'name', 'date of birth(YYYY-MM-DD)'and 'cat' or 'dog'"
+msgstr "Er ging iets mis. Je moet deze parameters gebruiken: 'naam', 'geboortedatum (YYYY-MM-DD)' en 'cat' of 'hond'."
+
+#, elixir-format
+#: lib/ip_project_akselele_web/controllers/api_controller.ex:20
+msgid "There has been an error processing your key add. Please try again."
+msgstr "Er ging iets mis met het toevoegen van je sleutel. Probeer opnieuw."
+
+#, elixir-format
+#: lib/ip_project_akselele_web/controllers/profile_controller.ex:41
+#: lib/ip_project_akselele_web/controllers/session_controller.ex:59
+msgid "This username already exists."
+msgstr "Deze username bestaat al."
+
+#, elixir-format
+#: lib/ip_project_akselele_web/controllers/user_controller.ex:22
+msgid "User created successfully."
+msgstr "User succesvol aangemaakt."
+
+#, elixir-format
+#: lib/ip_project_akselele_web/controllers/user_controller.ex:61
+msgid "User deleted successfully."
+msgstr "User succesvol verwijderd."
+
+#, elixir-format
+#: lib/ip_project_akselele_web/controllers/user_controller.ex:48
+msgid "User updated successfully."
+msgstr "User succesvol aangepast."
+
+#, elixir-format
+#: lib/ip_project_akselele_web/controllers/session_controller.ex:39
+msgid "Username or password is incorrect."
+msgstr "Username of wachtwoord is niet juist."
+
+#, elixir-format
+#: lib/ip_project_akselele_web/controllers/session_controller.ex:32
+msgid "Welcome back!"
+msgstr "Welkom terug!"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/controllers/pet_controller.ex:20
+#: lib/ip_project_akselele_web/controllers/pet_controller.ex:43 lib/ip_project_akselele_web/controllers/pet_controller.ex:55
+#: lib/ip_project_akselele_web/controllers/pet_controller.ex:75 lib/ip_project_akselele_web/controllers/pet_controller.ex:90
+msgid "You have the wrong key/name combination or a wrong key."
+msgstr "Je hebt de foute sleutel/naam combinatie of een foute sleutel."
+
+#, elixir-format
+#: lib/ip_project_akselele_web/controllers/profile_controller.ex:71
+msgid "Your current password isn't correct."
+msgstr "Je huidig wachtwoord is niet correct."
+
+#, elixir-format
+#: lib/ip_project_akselele_web/guardian/errorhandler.ex:10
+msgid "You are not logged in. Please log in to access the features."
+msgstr "Je bent niet ingelogd. Log in om de features te kunnen gebruiken."
+
+#, elixir-format
+#: lib/ip_project_akselele_web/plugs/AuthorizationPlug.ex:18
+msgid "You do not have access to these features."
+msgstr "Je hebt geen rechten om aan deze features te komen."
+
+#, elixir-format
+#: lib/ip_project_akselele_web/templates/api/allapis.html.eex:15
+#: lib/ip_project_akselele_web/templates/user/index.html.eex:23
+msgid "Are you sure?"
+msgstr "Ben je zeker?"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/templates/api/allapis.html.eex:15
+#: lib/ip_project_akselele_web/templates/user/index.html.eex:23
+msgid "Delete"
+msgstr "Verwijder"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/templates/user/index.html.eex:22
+#: lib/ip_project_akselele_web/templates/user/show.html.eex:22
+msgid "Edit"
+msgstr "Pas aan"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/templates/user/index.html.eex:7
+msgid "Hashed password"
+msgstr "Hashed wachtwoord"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/templates/user/show.html.eex:11
+msgid "Hashed password:"
+msgstr "Hashed wachtwoord:"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/templates/session/login.html.eex:19
+msgid "Log in"
+msgstr "Inloggen"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/templates/profile/password.html.eex:14
+msgid "New password"
+msgstr "Nieuw wachtwoord"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/templates/profile/password.html.eex:10
+msgid "Old password"
+msgstr "Oud wachtwoord"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/templates/user/show.html.eex:16
+msgid "Role:"
+msgstr "Rol"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/templates/profile/password.html.eex:30
+msgid "Save"
+msgstr "Opslaan"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/templates/api/allapis.html.eex:16
+#: lib/ip_project_akselele_web/templates/user/index.html.eex:21
+msgid "Show"
+msgstr "Tonen"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/templates/session/signup.html.eex:36
+msgid "Sign Up"
+msgstr "Aanmelden"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/templates/user/show.html.eex:6
+msgid "Username:"
+msgstr "Username"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/templates/session/login.html.eex:13
+#: lib/ip_project_akselele_web/templates/session/signup.html.eex:18
+msgid "password"
+msgstr "Wachtwoord"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/templates/session/login.html.eex:7
+#: lib/ip_project_akselele_web/templates/session/signup.html.eex:12
+msgid "username"
+msgstr "Username"
+
+#, elixir-format
+#: lib/ip_project_akselele_web/templates/profile/profile.html.eex:33
+msgid "Add key"
+msgstr "Sleutel toevoegen"
+
+#, elixir-format, fuzzy
+#: lib/ip_project_akselele_web/templates/profile/profile.html.eex:26
+msgid "name"
+msgstr "Naam"
